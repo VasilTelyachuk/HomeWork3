@@ -80,12 +80,6 @@ body {
   line-height: 32px;
   text-transform: uppercase;
 }
-.item-name {
-  padding-left: 14px;
-  margin: 0px;
-  color: #ffffff;
-  background: #323232;
-}
 .main-item:not(:nth-child(4n)) {
   margin-right: 30px;
   margin-bottom: 30px;
@@ -93,8 +87,15 @@ body {
 .img-item {
   float: left;
 }
-.item-name {
+.main-item-link {
+  float: left;
+  clear: both;
+  width: 241px;
+  padding-left: 14px;
   margin: 0px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #323232;
 }
 .price {
   float: right;
@@ -102,7 +103,7 @@ body {
   width: 54px;
   background-color: #8c8c8c;
 }
-.main-item:hover .item-name {
+.main-item:hover .main-item-link {
   content: "";
   background-color: #1abc9c;
 }
