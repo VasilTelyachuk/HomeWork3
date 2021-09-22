@@ -23,7 +23,9 @@ body {
   font-size: 30px;
   line-height: 32px;
   font-weight: 300;
+  text-decoration: none;
   text-transform: uppercase;
+  color: #555252;
 }
 .logotipe::first-letter {
   content: "";
@@ -40,7 +42,7 @@ body {
   list-style: none;
   font-size: 14px;
   font-weight: 900;
-  padding-right: 32px;
+  margin-right: 32px;
   text-transform: uppercase;
 }
 .nav-menu-item:last-child {
@@ -79,6 +81,7 @@ body {
   text-transform: uppercase;
 }
 .item-name {
+  padding-left: 14px;
   margin: 0px;
   color: #ffffff;
   background: #323232;
@@ -165,5 +168,7 @@ body {
   font-family: "Open Sans" sans-serif;
   color: #ffffff;
   padding: 0px;
-  margin-bottom: 82px;
-}
+  }
+  .Latest {
+    margin-bottom: 82px;
+  }
